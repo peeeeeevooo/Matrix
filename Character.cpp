@@ -1,8 +1,7 @@
 #include "Character.h"
 #include <iostream>
 
-Character::Character(char symbol, CharacterColor color)
-    : symbol(symbol), color(color)
+Character::Character(char symbol, CharacterColor color): symbol(symbol), color(color)
 {
 }
 
